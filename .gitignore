@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+fp-info-cache
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project specific
+Software/*/.pio/
+Software/*/.vscode/
+.claude/
+Software/old/
+CLAUDE.md
+GEMINI.md
+Software/ACLightControl/data/calib.txt
+Software/ACLightControl copy/
